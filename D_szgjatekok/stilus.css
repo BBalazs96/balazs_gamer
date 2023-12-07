@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Verdana, sans-serif;
+  color: beige;
+  font-size: 10pt;
+  margin: 0px;
+  padding: 0px;
+  
+  
+}
+
+body {
+  background-image: url(kepek/black.png);
+  background-size: contain;
+}
+#fotartalom {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  
+  max-width: 900px;
+}
+header {
+  height: 300px;
+  background-image: url(kepek/game.jpg);
+  background-size: cover;
+}
+#kep {
+  height: 400px;
+  width: auto;
+}
+main {
+  display: block;
+  background-color: rgb(211, 211, 211);
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+main div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+nav{
+    font-weight: bold;
+    background-color: grey;
+    
+    padding: 10px;
+   
+}
+a{
+    
+    border-right: 1px black solid;
+    padding: 10px;
+}
+a:hover{
+    background-color: orange;
+}
+aside *{
+    margin: 10px;
+    color: black;
+}
+aside p {
+    color: black;
+    text-align: justify;
+    font-size: 10px;
+}
+h1{
+    font-size: 15px;
+    color: black;
+}
+
+
+ul li{
+    list-style-type: square;
+    list-style-position: inside;
+}
+footer{
+    background-color: orange;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+@media only screen and(max-width: 700px){
+
+
+    nav a {
+        display: block;
+    }
+    main aside{
+        display: block;
+
+    }
+    
+}
